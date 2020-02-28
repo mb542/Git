@@ -1,0 +1,9 @@
+package dao;
+
+import entity.user;
+
+import java.util.List;
+
+public interface UserDao {
+    public List<user> showall();
+}
