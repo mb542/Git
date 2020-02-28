@@ -9,4 +9,5 @@ public interface UserDao {
     public void add(user user);
     public void delete();
     public void update();
+    public void show();
 }
