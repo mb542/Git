@@ -10,4 +10,5 @@ public interface UserDao {
     public void delete();
     public void update();
     public void show();
+    public user queryone();
 }
